@@ -1,0 +1,67 @@
+- loading configuration ...
+- System running mode is : offline
+**********************************************************************
+        PAM-N Offline Platform : PPG-DSO
+       Matlab Platform Version : TOKAIIMDD B002T002
+                   Released on : 20181025
+                   Released by : Zhang Hongbo
+         Contact Email Address : hongbo.zhang83@gmail.com
+**********************************************************************
+Simulation parameters:
+-------------------------------------------
+   Modulation Format : 4-PAM
+    Modulation Index : 2
+            BaudRate : 10.00 GBaud
+             BitRate : 20.00 Gbps
+ Equalization ON/OFF : 1
+      FFE tap number : 17
+         FFE step mu : 3.0e-05
+-------------------------------------------
+Digital Signal Processing begin ...
+- Digital DC block running to remove dc signal ...
+
+- Digital AGC running to adjust signal amplitude ...
+- signal locked at input block: # 1874
+- AGC block length: 100
+- AGC locked at AGC input block: #1874
+- AGC locked at AGC input sample: #187400
+
+- Kramers Kronig Receiver working ...
+- digigal clock recovery working ...
+- signal locked at input block: # 14442
+- TR block length: 200
+- TR locked at TR input block: #14442
+- TR locked at TR input sample: #2888400
+
+- down sampling for dsp processing
+- normalized dsp processing signal
+
+- equalization begin ...
+- LMS equalizer working ...
+- equalization end
+
+- get equalized symbol
+- drop overlapped data from equalizers ...
+- normalized output symbol
+
+- the bandwidth of fadc offset is: 0.08MHz
+- slice received symbol ...
+- de-mapping symbol to PPG bit stream ...
+- calc ber begin ...
+- sync tx bits of channel 1 ...
+- Synchronized at bit NO.: #14229782
+- correction rx bits reversal of channel 1 ...
+- calc err bits and ber for channel 1 ...
+- sync tx bits of channel 2 ...
+- Synchronized at bit NO.: #11049978
+- correction rx bits reversal of channel 2 ...
+- calc err bits and ber for channel 2...
+- calc total errNum and ber ...
+- Chanel 1 BER is: 0.00e+00
+- Chanel 2 BER is: 0.00e+00
+- Total BER is: 0.00e+00
+- EVM is: 0.08
+- Q in dB is: 21.97
+
+DSP processing Time: 40.91 seconds
+-------------------------------------------

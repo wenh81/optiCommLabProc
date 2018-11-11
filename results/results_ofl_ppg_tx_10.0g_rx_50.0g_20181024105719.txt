@@ -1,0 +1,2 @@
+modFormat	fBaud	bitrate	EVM 	QdB 
+4-PAM    	10.00	20.00	0.08	21.97
