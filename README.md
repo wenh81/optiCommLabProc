@@ -15,6 +15,8 @@ Optical Fiber Communication lab/experiments processing scripts: for directly det
 10. bit sequence synchronization
 11. BER calculation
 12. Kramers Kronig Receiver is enable to both of the two offline platform
+13. Phase folded LMS for 16-QAM
+14. Blind phase search based phase noise compensation for optical synthesizing approch
 
 # Dir introduction 
 * analysis
